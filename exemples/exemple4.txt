@@ -1,0 +1,15 @@
+tant que pas de mur devant :
+  -- les conditions peuvent être niées avec " pas de"
+  foo 1 3 2
+  -- appel de fonction
+  -- pas de limite au nombre d'arguments
+  -- /!\ contrairement aux fonctions prédéfinies
+  -- /!\ 'foo' n'est pas équivalent à 'foo 1'
+fin tant que
+
+fonction foo : -- il est possible de créer des fonctions
+  avance $1 fois
+  -- $1 , $2 , .., $n , font références aux arguments de la fonction
+  recule $2
+  saute $3 fois
+fin fonction

@@ -1,0 +1,7 @@
+-- on peut gérer plusieurs tortues dans un même script
+jardin '../fields/jardin1.jdn'
+tortues 2 -- on définit le nombre de tortues
+couleur #123456 @1 -- @n à la fin des instructions permet
+avance 1 fois @2 -- de choisir la tortue affectée
+tourne à droite @1
+avance -- toutes les tortues sont affectées si rien n'est précisé

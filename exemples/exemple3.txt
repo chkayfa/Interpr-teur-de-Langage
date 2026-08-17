@@ -1,0 +1,8 @@
+repete 5 fois :
+  si vide devant :
+    avance
+  sinon :
+    tourne à gauche
+  fin si
+fin repete
+recule 2

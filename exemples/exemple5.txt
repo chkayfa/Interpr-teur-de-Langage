@@ -1,0 +1,11 @@
+sauter 1/(2-3)
+-- sauter de -1 est identique à reculer de 2
+recule 2*(1+2) fois
+bar 1 2+2 5
+
+-- on peut utiliser des expressions à base de +,-,*,/ et ()
+-- dans les arguments des actions / fonctions
+
+fonction bar :
+  avance $1 * ( $2 + $3 )
+fin fonction
